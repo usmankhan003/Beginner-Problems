@@ -14,7 +14,7 @@ int main() {
     if (firstName == "Alice" || firstName == "Bob") {
         cout << "Welcome,  " << firstName << "!" << endl;
     } else {
-        cout << "Sorry! You are not Alice & Bob" << endl;
+        cout << "Sorry! You are not Alice or Bob" << endl;
     }
 
     return 0;
