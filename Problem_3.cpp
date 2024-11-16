@@ -12,9 +12,9 @@ int main() {
 
     // Check if the name is Alice or Bob
     if (firstName == "Alice" || firstName == "Bob") {
-        cout << "Welcome, Alice & Bob " << firstName << "!" << endl;
+        cout << "Welcome,  " << firstName << "!" << endl;
     } else {
-        cout << "Access denied." << endl;
+        cout << "Sorry! You are not Alice & Bob" << endl;
     }
 
     return 0;
